@@ -1,0 +1,42 @@
+/* Estilos del sistema: colores claros y tonos rojos */
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; background-color: #fff5f5; color: #333; line-height: 1.5; }
+a { color: #a93226; }
+
+.barra { background-color: #c0392b; color: #fff; padding: 12px 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
+.barra nav a { color: #fff; margin-left: 15px; text-decoration: none; }
+.barra nav a:hover { text-decoration: underline; }
+
+.contenedor { max-width: 950px; margin: 0 auto; padding: 20px; background-color: #fff; min-height: 70vh; }
+h1, h2 { color: #a93226; }
+h3 { color: #8b1e1e; margin: 8px 0 4px; }
+
+.formulario { max-width: 420px; }
+.formulario label { display: block; margin-bottom: 12px; }
+.formulario input, .formulario select { display: block; width: 100%; padding: 8px; margin-top: 4px; border: 1px solid #e0b4b4; box-sizing: border-box; }
+button, .boton { background-color: #c0392b; color: #fff; border: none; padding: 9px 16px; cursor: pointer; text-decoration: none; display: inline-block; font-size: 14px; }
+button:hover, .boton:hover { background-color: #a93226; }
+.boton-link { background: none; color: #a93226; padding: 0; text-decoration: underline; }
+.boton-link:hover { background: none; color: #6b1414; }
+.en-linea { display: inline; margin: 0; }
+
+.busqueda { margin: 15px 0; }
+.busqueda input[type="search"] { padding: 8px; width: 260px; max-width: 70%; border: 1px solid #e0b4b4; }
+
+.aviso { padding: 10px 14px; margin: 10px 0; }
+.aviso-ok { background-color: #e6f4ea; border-left: 4px solid #2e7d32; }
+.aviso-error { background-color: #fde8e8; border-left: 4px solid #c0392b; }
+
+.tabla-scroll { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; margin: 15px 0; }
+th, td { border: 1px solid #e0b4b4; padding: 8px; text-align: left; }
+th { background-color: #f8d7d7; color: #6b1414; }
+.miniatura { width: 70px; height: 50px; object-fit: cover; }
+
+.tarjeta { background-color: #fff5f5; border-left: 5px solid #c0392b; padding: 5px 15px; margin-bottom: 20px; }
+.catalogo { display: flex; flex-wrap: wrap; gap: 15px; }
+.auto { width: 270px; border: 1px solid #f1b0b0; padding: 10px; background-color: #fff5f5; }
+.auto img, .sin-foto { width: 100%; height: 170px; object-fit: cover; }
+.sin-foto { background-color: #f8d7d7; display: flex; align-items: center; justify-content: center; color: #8b1e1e; }
+.precio { font-weight: bold; color: #a93226; }
+
+.pie { text-align: center; background-color: #f8d7d7; color: #6b1414; padding: 15px; font-size: 14px; }
